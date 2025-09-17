@@ -91,4 +91,4 @@ for key in imgs.keys():
     plt.show()
 
     text = pytesseract.image_to_string(resultsCleared[key], config=set_config)
-    print("Texto de la placa: ", text)
+    print("Texto de la placa de auto: ", text)
